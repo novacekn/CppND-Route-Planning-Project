@@ -1,4 +1,4 @@
-# Install script for directory: /home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/pugixml
+# Install script for directory: /home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/pugixml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/nate/CLionProjects/CppND-Route-Planning-Project/lib/libpugixml.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/lib/libpugixml.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp"
-    "/home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp"
+    "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp"
+    "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp"
     )
 endif()
 
@@ -52,7 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml/pugixml-config.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml/pugixml-config.cmake"
-         "/home/nate/CLionProjects/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config.cmake")
+         "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml/pugixml-config-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -61,9 +61,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml" TYPE FILE FILES "/home/nate/CLionProjects/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml" TYPE FILE FILES "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml" TYPE FILE FILES "/home/nate/CLionProjects/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml" TYPE FILE FILES "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config-debug.cmake")
   endif()
 endif()
 
@@ -76,6 +76,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/nate/CLionProjects/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/pugixml.pc")
+file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/pugixml.pc")
 endif()
 

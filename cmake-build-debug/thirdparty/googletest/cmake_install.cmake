@@ -1,4 +1,4 @@
-# Install script for directory: /home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/googletest
+# Install script for directory: /home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nate/CLionProjects/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/googletest/googlemock/cmake_install.cmake")
+  include("/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

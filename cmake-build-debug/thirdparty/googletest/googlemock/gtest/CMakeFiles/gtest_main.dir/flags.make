@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
+CXX_INCLUDES = -isystem /home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
 

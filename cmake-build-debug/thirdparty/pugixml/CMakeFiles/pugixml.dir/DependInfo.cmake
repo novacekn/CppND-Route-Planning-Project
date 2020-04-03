@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp" "/home/nate/CLionProjects/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o"
+  "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp" "/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/cmake-build-debug/thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

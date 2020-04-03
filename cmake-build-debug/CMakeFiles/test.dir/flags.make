@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/nate/CLionProjects/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
+CXX_INCLUDES = -I/home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/nate/Udacity/C++/Foundations/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
 
